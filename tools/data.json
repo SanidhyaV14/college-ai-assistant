@@ -1,0 +1,86 @@
+{
+    "timetable_data": {
+        "Monday": [
+            {
+                "time": "09:00 AM - 10:00 AM",
+                "subject": "UCS3011 (Data Structures)",
+                "room": "Lab 004"
+            },
+            {
+                "time": "11:00 AM - 12:00 PM",
+                "subject": "UMA3007 (Discrete Mathematics)",
+                "room": "Room 102"
+            }
+        ],
+        "Tuesday": [
+            {
+                "time": "10:00 AM - 11:00 AM",
+                "subject": "UCS3012 (Software Engineering)",
+                "room": "Lab 005"
+            },
+            {
+                "time": "01:00 PM - 02:30 PM",
+                "subject": "UCS3018 (Python Programming)",
+                "room": "Lab 008"
+            }
+        ],
+        "Wednesday": [
+            {
+                "time": "09:00 AM - 10:00 AM",
+                "subject": "UCS3011 (Data Structures)",
+                "room": "Lab 004"
+            },
+            {
+                "time": "11:00 AM - 12:00 PM",
+                "subject": "UMA3007 (Discrete Mathematics)",
+                "room": "Room 102"
+            }
+        ],
+        "Thursday": [
+            {
+                "time": "10:00 AM - 11:00 AM",
+                "subject": "UCS3012 (Software Engineering)",
+                "room": "Lab 005"
+            },
+            {
+                "time": "02:00 PM - 03:30 PM",
+                "subject": "UMA3007 (Discrete Mathematics)",
+                "room": "Room 102"
+            }
+        ],
+        "Friday": [
+            {
+                "time": "09:00 AM - 11:00 AM",
+                "subject": "UCS3018 (Python Programming)",
+                "room": "Lab 008"
+            },
+            {
+                "time": "01:00 PM - 02:00 PM",
+                "subject": "UCS3012 (Software Engineering)",
+                "room": "Lab 005"
+            }
+        ]
+    },
+    "attendance_stats": {
+        "UCS3011": {
+            "subject_name": "Data Structures",
+            "attended": 28,
+            "total": 30
+        },
+        "UMA3007": {
+            "subject_name": "Discrete Mathematics",
+            "attended": 18,
+            "total": 25
+        },
+        "UCS3012": {
+            "subject_name": "Software Engineering",
+            "attended": 14,
+            "total": 20
+        },
+        "UCS3018": {
+            "subject_name": "Python Programming",
+            "attended": 23,
+            "total": 26
+        }
+    }
+}
