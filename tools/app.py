@@ -117,11 +117,8 @@ if __name__ == "__main__":
                         tool_called = True
                         print(f"🔧 [Tool Used]: {call.name}")
                         
-                        # Run the local python code
                         tool_result = tools_map[call.name](**call.args)
                         
-                        # Step 2: Build a fresh user string combining context + execution result
-                        # This avoids using the unsupported role='tool' history structure
                         final_prompt = (
                             f"{prompt}\n\n"
                             f"[System Update: The tool '{call.name}' was executed successfully.\n"
